@@ -18,20 +18,10 @@ pub fn distance (a: &[u8], b: &[u8]) -> Vec<u8> {
 mod tests {
     #[test]
     fn distance () {
-        // let a = vec![ 36, 44 ];
-        // let b = vec![ 77, 88 ];
-        // let d = super::distance(&a, &b);
-        // println!("{:?}", d);
-        // assert_eq!(d.len(), a.len());
-        // assert_eq!(d.len(), b.len());
-    }
-    #[test]
-    fn distance_out_len () {
         let a = vec![ 36, 44 ];
         let b = vec![ 77, 88 ];
         let d = super::distance(&a, &b);
-        assert_eq!(d.len(), a.len());
-        assert_eq!(d.len(), b.len());
+        assert_eq!(d, vec![ 105, 116 ]);
     }
     #[test]
     #[should_panic(expected = "inputs must be of same length")]

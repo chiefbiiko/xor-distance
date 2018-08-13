@@ -1,6 +1,9 @@
 [package]
 name = "xor-distance"
+description = "a port of mafintosh's npm module `xor-distance`"
 version = "0.1.0"
-authors = ["noah.schwarz <nschwarz@actum.de>"]
+authors = ["Noah Anabiik Schwarz <noah.anabiik.schwarz@gmail.com>"]
+license = "MIT"
+repository = "https://github.com/chiefbiiko/xor-distance.git"
 
 [dependencies]

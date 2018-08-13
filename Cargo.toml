@@ -1,0 +1,6 @@
+[package]
+name = "xor-distance"
+version = "0.1.0"
+authors = ["noah.schwarz <nschwarz@actum.de>"]
+
+[dependencies]
